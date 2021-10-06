@@ -1,0 +1,205 @@
+/*=====CSS for Dropdown Menus=====*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fce18a;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: rgb(19, 17, 17);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #0088ce;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+p {
+    color: rgb(12, 12, 12);
+  }
+  
+  font-face {
+    font-family: 'Monteserrat';
+  
+  }
+
+/* Universal Styles */
+html {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #fce18a;  
+    text-align: center; 
+    font-size: 24px; 
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h1 {
+    padding: 20px;
+    color: rgb(22, 22, 22);
+    font-size: 28px;
+    text-align: center;
+    font-family: Georgia;
+  }
+  
+  h2 {
+    padding: 40px 20px 0 20px;
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 0.25em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  
+  
+  /* Header */
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(22, 21, 21);
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+  
+  }
+  
+  .header li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .header a {
+    color: #4A4A4A;
+  }
+  
+  a.home {
+    color: #4D00FF;
+  }
+  
+  
+  /* Banner Section */
+  .banner {
+    margin-top: 74px;
+    padding: 40px 0 100px 0;
+    background-color: #4D00FF;
+  }
+  
+  .banner p {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    color: #ffffff;
+  
+  }
+  
+  
+  /* Editorial Sections */
+  .editorial {
+    padding-bottom: 40px;
+    color: #fcfcfc;
+    font-family: 'Trebuchet MS', 'Times New Roman', serif;
+  }
+  
+  /* Font Card Sections */
+  .font-card {
+    padding: 10px 0 40px 0;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .font-card .creator {
+    padding: 10px 20px;
+    font-size: 16px;
+    
+  }
+  
+  .sample {
+    display: inline-block;  
+    padding: 5px 40px;
+  }
+  
+  .sample .text {
+    color: #4D00FF;
+    font-size: 100px;
+  }
+  
+  .garamond {
+    font-family: Garamond;
+  }
+  
+  .helvetica {
+    font-family: Helvetica;
+  }
+  
+    
+  .bold {
+    font-weight: 900;
+  }
+  
+  .regular {
+    font-weight: normal;
+  }
+  
+  .italic {
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  .footer {
+    display: inline-block;  
+    padding: 5px 40px;
+    font-weight: normal;
+    
+
+  }
+  
+  
